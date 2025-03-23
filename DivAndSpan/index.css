@@ -1,0 +1,12 @@
+/** div is used to group multiple components and span is used to group inline components**/
+
+div{
+    color: aqua;
+    font-family: cursive;
+}
+
+span {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: yellow;
+}

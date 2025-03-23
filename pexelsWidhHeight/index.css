@@ -1,0 +1,71 @@
+/** Here 60px means 60px in small screem as well as 60px in big screen**/
+/** 
+  pexels are the absolute values. we might be carefull using it depending upon the screen size, 
+  may be it look good for other size screen and may not look good for anothet size screen.
+**/
+h2{
+    font-size: 60px;
+    background-color: aqua;
+    width: 200px;
+    height: 400px
+}
+
+/** percentage are the realtive UNIT/VALUE depending upon the parent **/
+
+.outer {
+    background-color: black;
+    width: 200px;
+    height: 400px
+}
+
+.inner {
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+}
+
+/** em are the relative value depending on parent 
+1em = 16px default browser style
+2em = 16 px * 2 = 32px
+.....
+**/
+
+/**here in div I have modify the base value from 16 px to 10 px so the
+2 em will be the 20 px**/
+div {
+    font-size: 10px;
+}
+
+.absolute {
+    font-size: 70px;
+}
+
+.relative{
+    font-size: 2em;
+}
+
+/** here rem which is a relative values depending upon the root not on parent
+we can modify it like either chnage the default browser setting or chnage the root element like html
+it's also like 1 rem = 16 px(default value) * 1
+**/
+
+html{
+    font-size: 20px;
+}
+
+.remexample {
+    font-size: 2rem;
+}
+
+/** VIEWPORT units**/
+/**
+vh - height - percentage of the screen
+vw - height - percentage of the screen
+**/
+
+.hero {
+    background-color: blueviolet;
+    height: 100vh;
+    width: 100vw;
+}
+

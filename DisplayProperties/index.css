@@ -1,0 +1,84 @@
+/**
+Elements have it set by default
+BLOCK = Always starts a new line and span full width
+INLINE = Does not starts a new line and spans only content
+**/
+
+/* .block {
+    background-color: aqua;
+    color: red;
+    display: inline;
+}
+
+.inline {
+    background-color: blue;
+    color: white;
+    display: block;
+} */
+
+/** 
+BLOCK = Browser respects top/bottom, width/height margin
+INLINE = does not respoect top/bottom, width/height margin 
+**/
+
+ul li {
+    list-style-type: none;
+}
+/* * If I want to select the links within the list items than I can go like this**/
+/* ul li a{
+    color: orange;
+} */
+
+/** If I want to select all link than I can go like this**/
+ul a {
+    color: green;
+}
+
+/** Border-box properties**/
+/** Box-sizing the default is "content box"**/
+
+/** If we explicity add padding in the box, the box will get bigger, for that If we use box-sizing:border-box than padding will 
+    be done within the element
+**/
+
+.box-1, .box-2, .box-3 {
+    height: 200px;
+    width: 200px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.box-1 {
+    background-color: aqua;
+}
+
+.box-2 {
+    background-color: grey;
+}
+
+.box-3 {
+    background-color: blueviolet;
+}
+
+/** display: inline-block property**/
+/** As we know that inline element doesn't support margin padding width height because of browser's default behaviour.
+    So for that we need to provide the property as display: block, because of this the new line inserted, so waht about
+    we want the padding height width and so on without a new line for this we use the  display: inline-block property 
+    to add the properties withoput adding a new line
+**/
+
+a {
+    background-color: aqua;
+    color: whitesmoke;
+    margin: 20px 40px;
+    height: 30px;
+}
+
+/** 
+  display:  none = Remove from the flow, hide the element and callpase the space
+  opacity:0, visibility:hidden = hides the element preserve the space
+**/
+
+.none{
+    display: none;
+}

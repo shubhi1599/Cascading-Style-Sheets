@@ -1,0 +1,22 @@
+/** Element selector **/
+/* h1{
+    color: green;
+    font-size: 40px;
+}
+h2 {
+    color: blue;
+    font-size: 20px;
+}
+
+p{
+    width: 50%;
+    color: aqua;
+    font-family: cursive;
+} */
+
+/** Grouping selector**/
+
+h1, h2, p{
+  color: blueviolet;
+  font-family: cursive;
+}

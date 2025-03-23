@@ -1,0 +1,13 @@
+.icon {
+    font-size: 40px;
+    color: red;
+}
+
+#title {
+    color: blue;
+}
+
+.container p{
+    color: green;
+    background-color: black;
+}

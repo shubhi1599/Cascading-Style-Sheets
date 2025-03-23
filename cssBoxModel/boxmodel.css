@@ -1,0 +1,41 @@
+/** Each and every element in css is represented as a box **/
+
+h1, p {
+    color: white;
+}
+h1{
+    background-color: rgb(45, 126, 126);
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+    /** here sequence is important**/
+    /** first to define width then style and then color**/
+    /* border: 1rem dotted red; */
+
+    /** example just to have border at one side like bottom**/
+    border-bottom: 0.5rem solid green;
+}
+
+/** Same we can do with the margin and borders**/
+p {
+    background-color: blue;
+    /** here I have keep padding as 40px which will for all top bottom left right**/
+    padding: 40px;
+    /** first value is going to represent top and bottom and second value is going to represent left and right**/
+    padding: 40px 30px;
+
+    /** long way to do this, short is in h1**/
+    border-style: solid;
+    border-width: 10px;
+    border-color: rebeccapurple;
+}
+
+/** example for border-radius**/
+
+#border {
+    border: solid 15px black;
+    /** By setting the border radius we can have the dges of the elements**/
+    border-radius: 30px;
+}
