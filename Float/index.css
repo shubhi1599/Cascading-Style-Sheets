@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one{
+    height: 200px;
+    width: 50%;
+    float: left;
+    background-color: red;
+}
+
+.two{
+    height: 200px;
+    width: 50%;
+    float: left;
+    background-color: greenyellow;
+}
+.three{
+    height: 200px;
+    width: 50%;
+    float: left;
+    background-color: aqua;
+}
+
+/** as we have 50% of the width and if we add other element than it will occupy that space
+Just to clear that we need to add clear property so that the other elemnt can start with ne w line
+**/
+
+h1{
+    clear: both;
+}

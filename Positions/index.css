@@ -1,0 +1,58 @@
+/** 
+Position static-  default behaviour, 
+always positioned according to the normal flow
+
+Position Relative- position relative, to it's normal position
+unlike static we can use top, bottom, left and right
+
+position Absolute- relativbe but with the parent position relative
+**/
+
+.navbar {
+    background-color: red;
+    color: white;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    width: 100%;
+}
+
+div{
+    background-color: yellow;
+    margin-top: 20px;
+    /* padding: 20px; */
+    border: 3px solid red;
+}
+
+.one{
+    background-color: aqua;
+    top: 400px;
+    /* position: relative; */
+}
+
+.two{
+    background-color: blueviolet;
+}
+.three{
+    background-color: blue;
+}
+
+/** I will keep position relative at div than whatever chnages I will make in special class
+it will behave with respect of div
+**/
+
+.special {
+    top: 0;
+    left: 0;
+    /* position: absolute; */
+    background-color: palevioletred;
+    color: black;
+}
+
+.other{
+    height: 100vh;
+    border: 5px solid rebeccapurple;
+    background-color: aquamarine;
+}
