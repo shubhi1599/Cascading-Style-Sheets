@@ -1,0 +1,32 @@
+/** 
+ Media query
+ Responsive designs
+ style element on different screen sizes
+ min-width - starting from
+ max-width - up to
+**/
+
+body {
+    background-color: yellow;
+}
+
+.banner {
+    background-color: aqua;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+@media screen and (min-width: 576px) {
+    body {
+        background-color: rgb(230, 30, 30);
+    }
+    
+    .banner {
+        background-color: rgb(202, 35, 163);
+        text-align: center;
+        text-decoration: underline;
+        text-transform: capitalize;
+    }
+    
+} 
